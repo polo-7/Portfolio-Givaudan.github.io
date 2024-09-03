@@ -9,7 +9,7 @@ window.onscroll = function() {
     fixHeader();
 };
 
-var header = document.getElementById("myHeader");
+var header = document.getElementById("menu");
 var sticky = header.offsetTop;
 
 function fixHeader() {
