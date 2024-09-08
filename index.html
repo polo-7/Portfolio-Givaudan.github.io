@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <!---Accueil-->
+  <!---Tout les éléments qui possède l'id "P" s'affiche après 5 secondes-->
+    <div class="video-container">
+        <video autoplay loop muted>
+          <source src="Ressources/cybersecurity_footage_accuiel.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="bienvenue" id="P"> Bienvenue dans mon Portfolio</div>
+      </div>
+
+      <!---Menu déroulant-->
+      <nav class="menu">
+          <ul>
+              <li><a href="#profil">Profil</a>
+                <ul class="sous">
+                  <!---<li> <a href="#">Présentation</a></li>-->
+                  <!---<li> <a href="#">JS</a></li>-->
+                  <!---<li> <a href="#">PHP</a></li>-->
+               </ul>
+          </li>
+          <li class='deroulant'><a href="#parcours">Parcours</a>
+            <ul class="sous">
+              <li> <a href="#">Stage 1</a></li>
+              <li> <a href="#">Stage 2</a></li>
+              <li> <a href="#">Ateliers</a></li>
+           </ul>
+         </li>
+            <li> <a href="#">Veille technologique</a></li>
+            <!---<li> <a href="#">contact</a></li>-->
+          </ul>
+      </nav>
+    <!------------->   
+    <!-----FAIRE DES ANCRES POUR ALLER AUX DIFFERENTES SECTION DU PORTFOLIO-------->
+    <br>
+    <br>
+  <p class="presentation" > 
+    <h1><b>Présentation du BTS SIO (services informatiques aux organisations)</h1>
+  </b>
+  <br>Le BTS est un diplôme en deux ans post-bac, résolument concret, destiné à une intégration rapide sur le marché du travail. 
+  <br>Pour ceux qui le souhaitent, il est possible de continuer ses études un an ou plus.
+
+  <br>Le BTS SIO apporte des compétences dans le support et la mise à disposition de services informatiques, ainsi qu’en cybersécurité. 
+  <br>À la fin du premier semestre, il propose deux options (SISR et SLAM) qui délivrent chacune une compétence supplémentaire : 
+  <br><b><i>l’administration des systèmes et des réseaux (SISR)</b> ou <b>la conception et le développement d'applications (SLAM).</b>
+  
+<br>
+  <br>• Avec l’option <b>SISR</b>, la personne titulaire contribue à la production et à la fourniture de services en réalisant ou en adaptant des solutions d’infrastructure et en assurant le fonctionnement optimal des équipements et des services informatiques.
+  <br>• Avec l’option <b>SLAM</b>, le diplômé participe à la production et à la fourniture de services en développant, en adaptant ou en maintenant des solutions applicatives. 
+</p>
+<br>
+<br>
+<br>
+<br>
+<h1 class="profil" id="profil">Profil</h1>
+  <image src="Ressources/mon-CV.png" class="cv"></image>
+   <!-----Se présenter vite fait-------->
+   <!-----mettre un bouton pour télécharger le CV-------->
+    <!-----Faire en sorte d'avoir la presentation à gauche et le cv en plus petit à droite-------->
+     <!-----Mettre une flèche pour indiquer que le cv est à droite-------->
+    <p class="a propos">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+<br>
+<br>
+<br>
+<br>
+<!-----METTRE DES LIENS POUR VISIONNER LES PDF-------->
+<h1 class="parcours" id="parcours">Parcours</h1>
+
+ <!-----mettre le parcours scolaire-------->
+  <h2> Stage 1</h2>
+  <a href="" class="stage1">Lien vers le rapport de stage 1</a>
+  <!-----EXPLIQUER LES MODALITéS DU STAGE (entreprise, nombre de semaines, les activité, quelques photo et logo de l'entreprise)-------->
+  <h2> Stage 2</h2>
+  <a href="" class="stage2">Lien vers le rapport de stage 2</a>
+   <!-----EXPLIQUER LES MODALITéS DU STAGE (entreprise, nombre de semaines, les activité, quelques photo et logo de l'entreprise)-------->
+
+    <!-----ajouter les experiences Pro-------->
+
+     <!-----ajouter le contexte de GSB ainsi que le compte rendu du TP------->
+     <h2> Atelier profesionnel</h2>
+     <embed src=Ressources/PDF/GSB-Organisation.pdf #toolbar=0 navpanes=0 scrollbar=0 statusbar=0 messages=0& scrollbar=0 width=800px height=500px type='application/pdf' scrolling="no" border="0"/>
+     <!-----mettre un bouton pour télécharger le contexte GSB et mon compte rendu du tp-------->
+     <embed src="Ressources/PDF/AP-Site vitrine (GSB)-Givaudan-SISR.pdf" #toolbar=0 navpanes=0 scrollbar=0 statusbar=0 messages=0& scrollbar=0 width=800px height=500px type='application/pdf' scrolling="no" border="0"/>
+      <!-----ajouter le tp du 04/09/2024 (1 er tp du mercredi)-------->
+      <image src="Ressources/schéma réseau.png"></image>
+      <image src="Ressources/table d'adressage.png"></image>
+</body>
+</html>
