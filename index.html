@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<!---<script src="script.js"></script>-->
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio | Paul Givaudan</title>
+    <link rel="shortcut icon" href="/Ressources/Logo-1.png" />
+</head>
+<body>
+    <!---Accueil-->
+  <!---Tout les éléments qui possède l'id "P" s'affiche après 5 secondes-->
+    <div class="video-container">
+        <video autoplay loop muted>
+          <source src="Ressources/cybersecurity_footage_accuiel.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="bienvenue" id="P"> Bienvenue sur mon Portfolio</div>
+      </div>
+
+      <!---Menu déroulant-->
+      <nav class="menu">
+          <ul>
+              <li><a href="#presentation">À Propos</a>
+                <ul class="sous">
+                  <!---<li> <a href="#">Présentation</a></li>-->
+               </ul>
+          </li>
+          <li class='deroulant'><a href="#parcours">Mes stages</a>
+            <ul class="sous">
+              <li> <a href="#stage1">Stage 1</a></li>
+              <li> <a href="#stage2">Stage 2</a></li>
+           </ul>
+         </li>
+         <li class='deroulant'><a href="#">Activités</a>
+              <ul class="sous">
+                <li> <a href="#">Ateliers</a></li>
+                <li> <a href="#">Travaux pratiques</a></li>
+             </ul>
+            </li>
+            <li> <a href="#">Veille technologique</a></li>
+            <!---<li> <a href="#">contact</a></li>-->
+          </ul>
+      </nav>
+    <!------------->   
+    <!-----FAIRE DES ANCRES POUR ALLER AUX DIFFERENTES SECTION DU PORTFOLIO-------->
+    <br>
+    <br>
+
+
+<!---À Propos-->
+<!---Presentation-->
+  <div class="presentation">
+    <h1 id="presentation">Présentation</h1>
+    <br>Bonjour c'est Paul, étudiant en BTS SIO passionné par l'informatique et la Cybersécurité.
+    <br>Actuellement en apprentissage, je suis déterminé à approfondir mes connaissances et à développer mes compétences dans ce domaine passionnant. 
+    <br>Vous pouvez télécharger mon CV en utilisant le bouton ci-dessous pour découvrir mon parcours et mes expériences en cours.
+    <br>N'hésitez pas à me contacter pour toute question ou opportunité liée à l'informatique et aux réseaux.
+    <br>
+    <br><button class="button-89" role="button"><a href="/Ressources/PDF/CV-paul_givaudan.pdf" target="_blank">Mon CV</a></button>
+  </div>
+
+  <!---Mes Stages-->
+<br>
+<br>
+<br>
+<br>
+<h1 class="stages" >Mes stages</h1>
+<br>
+<br>
+<!-----METTRE DES LIENS POUR VISIONNER LES PDF-------->
+<div class="stage1" id="stages">
+  <b>Pour se stage de première année j'ai choisi de le faire dans le service informatique de la CCSS des Hautes-Alpes. 
+    <br>Pendant 5 semaines (du 27 mai 2024 au 5 juillet 2024) j'ai:</b>
+  
+   <br>&nbsp &nbsp- Installé une PLC pour un logiciel
+   <br>&nbsp &nbsp- Redigé des modes d'emploi utilisateur
+   <br>&nbsp &nbsp- Crypté des Clée USB
+   <br>&nbsp &nbsp- Installé des bornes Wifi
+   <br>&nbsp &nbsp- Geré du patrimoine informatique
+   <br>
+  <br><button class="button-89" role="button"><a href="/Ressources/PDF/Rapport quotidien-Stage n°1-Givaudan-SISR.pdf" target="_blank">Stage 1</a></button>
+</div>
+
+<!--<div class="stage2">
+  <br><button class="button-89" role="button"><a href="/" target="_blank">Stage 2</a></button>
+</div>-->
+<br>
+<br>
+<!-----ajouter le contexte de GSB ainsi que le compte rendu du TP------->
+  <h1 class="ateliers" id=""> Ateliers profesionnels</h1>
+<div class="div_ateliers">
+  <br>Durant mes deux années de BTS Informatique, j'ai réalisé des projets avancés lors des Ateliers de Professionnalisation qui ont lieu chaque semaines.
+  <br><b>L'Atelier GSB</b>
+  <br>Ce premiers ateliers consiste, à partir d'une entreprise fictive, de créer toutes les composantes de son SI (système informatique) au fil des semaines. 
+  <br>Voici la documentation détaillée de la mise en place de chaque étapes réalisées sur le cas GSB : 
+  
+  <br>
+  <br>
+  <ul>
+      <li>Création du site vitrine</li>
+      <li>Hébergement du site vitrine</li>
+      <li>Transfert du site </li>
+      <li>Protection du serveur Web</li>
+      <li>La base de données</li>
+  </ul>
+  <br>
+  <br>
+  Les travaux sont disponible ci-dessous au format PDF :
+  <br>
+  <img src="/Ressources/logo-GSB.png">
+  <br><button class="button-89" role="button"><a href="/Ressources/PDF/AP-Site vitrine (GSB)-Givaudan-SISR.pdf" target="_blank">Atelier GSB</a></button>
+</div>
+<h2 class="titre_shema">Le schéma réseau de GSB</h2>
+<img src="/Ressources/schema_reseau.png" class="schema_reseau">
+
+<br>
+<br>
+<br>
+<br>
+<div class="travaux">
+<h1 >Travaux pratiques</h1>
+
+<br>Lors de ces 2 années de BTS j'ai réalisé beaucoup de TP afin de renforcer mes competences et mes competences en informatique et en Cybersécurité
+<br>Je met ci-dessous un lien pour acceder a mon google drive si vous voulez voir mes travaux.
+<br>
+<br>
+    <br><button class="button-89" role="button"><a href="https://drive.google.com/drive/folders/1hXzQXyFyYfR6I8vZ-KeFHgzbWV9SbbfP?usp=sharing" target="_blank">Les TP réalisés en cours</a></button>
+</div>
+<br>
+<br>
+    <footer>
+      <div class="footer">
+        <b>© 2023-2025 BTS SIO SISR | Paul GIVAUDAN – Tous droits réservés</b>
+      </div>
+    </footer> 
+</body>
+</html>
